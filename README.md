@@ -1,28 +1,38 @@
-# Anime Engine
+## Introduction
 
-Welcome to the repository! 
-This little project is an anime website showcase. While it doesn't provide actual streaming functionality, it serves as a visual introduction for a fictional anime streaming platform and helps users to watch anime based on their intrest
+Welcome to my first machine learning project! The primary objective of this project is to predict prices using machine learning techniques. I have conducted a basic Exploratory Data Analysis (EDA) on the dataset and implemented three different models. The goal is to compare these models and determine the best-performing one for price prediction.
 
-## Contributing
+## Exploratory Data Analysis (EDA)
 
-If you'd like to contribute to the development of this landing page, please follow these steps:
+I began by thoroughly exploring the dataset to gain a deeper understanding of its characteristics. This involved analyzing data distributions, identifying outliers, handling missing values, and visualizing key trends. EDA played a crucial role in informing subsequent modeling decisions and ensuring a comprehensive understanding of the data.
 
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature`)
-3. Make your changes and commit them (`git commit -m 'Add new feature'`)
-4. Push to the branch (`git push origin feature`)
-5. Open a pull request
+## Model Comparison
+
+For this project, I implemented three machine learning models: LinearRegression,DecisionTreeRegressor and RandomForestRegressor. Each model was chosen based on its suitability for the task and its potential to capture the underlying patterns in the data. I trained and evaluated each model, comparing their performance metrics and assessing how well they predicted prices.
+
+## Results
+
+After a rigorous comparison, RandomForestRegressor emerged as the most accurate in predicting prices. The performance metrics, such as After Cross-Validation calculated 200 rmse and then found out the mean and std of these rmse's, indicate its superior capability in capturing the underlying patterns in the dataset. This model is selected as the final choice for price prediction in this project.
+
+## Future Steps
+
+As my first machine learning project, there is always room for improvement. In the future, I plan to explore additional feature engineering techniques, experiment with more advanced models, and further optimize the selected model to enhance its predictive accuracy.
+
+## Conclusion
+
+In conclusion, this project marks my initiation into the field of machine learning. Through EDA and model comparison, I have gained valuable insights into the dataset and identified a robust model for predicting prices. This experience serves as a foundation for future projects and continuous learning in the exciting realm of machine learning.
+
+## Acknowledgement
+
+The project is for educational purposes and was created as part of @Prodigy_Infotech Internship
+
+Feel free to explore, modify, or expand upon this project!
 
 ## Issues
 
 If you encounter any issues or have suggestions for improvements, please [open an issue](https://github.com/Tinuanandh/anime_engine/issues).
 
-## License
+## Contact 
 
-This project is licensed under the [MIT License](LICENSE).
+If you have any questions, suggestions, or feedback, please feel free to email me at tinuanandh03@gmail.com 
 
-## Contact
-
-For inquiries, feel free to open an issue and ask me directly.
-
----
