@@ -81,3 +81,64 @@
         </div>
       </div>
     </div>
+    
+    <a href="#" class="logo"><i class="fa fa-star" aria-hidden="true"></i> Hoshi</a>
+
+    <div class="search-container">
+      <input type="search" placeholder="Search anime...">
+      <span class="search-addon">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <a class="filter-btn">Filter</a>
+      </span>
+    </div>
+
+    <div class="social-media-text">
+      <p>Join<br>now</p>
+    </div>
+    <div class="icons" id="social-media-icons">
+      <i class="fa fa-search" id="search-icon"></i>
+      <i class="fa fa-discord" id="discord-icon"></i>
+      <i class="fa fa-telegram" id="telegram-icon"></i>
+      <i class="fa fa-reddit" id="reddit-icon"></i>
+      <i class="fa fa-twitter" id="twitter-icon"></i>
+    </div>
+
+    <div class="icons-container" id="c1">
+      <i class="fa fa-users" aria-hidden="true" title="Watch with friends"></i>
+      <p>Watch2gether</p>
+    </div>
+
+    <div class="icons-container" id="c2">
+      <i class="fa fa-random" aria-hidden="true" title="Watch random anime"></i>
+      <p>Random</p>
+    </div>
+
+    <div class="icons-container" id="c3">
+      <i class="fa fa-comments" aria-hidden="true" title="Chat about your favorite shows"></i>
+      <p>Community</p>
+    </div>
+
+    <button class="btn" id="login-button">Login</button>
+  </header>
+  <!-- HEADER::END -->
+
+  <!-- LOGIN-WINDOW::START -->
+  <div class="overlay" id="login-overlay"></div>
+  <div class="login-window" id="login-window">
+    <div class="login-content">
+      <h2>Welcome Back!</h2>
+      <form id="display-form">
+        <label for="email" id="lb-email">email address</label><br>
+        <input type="email" id="email" name="email" autocomplete="off"><br>
+        <label for="password" id="lb-password">password</label><br>
+        <input type="password" id="password" name="password"><br>
+        <input type="checkbox" id="remember-checkbox" name="remember-checkbox">
+        <label for="remember-checkbox">remember me</label>
+        <a id="forgot-password">forgot password?</a><br>
+        <input type="submit" value="login" id="login-submit-button"><br>
+        <label>don't have an account? </label><a id="register-button"> register</a><br>
+      </form>
+      <i id="login-close-button" class="fa fa-window-close"></i>
+    </div>
+  </div>
+
