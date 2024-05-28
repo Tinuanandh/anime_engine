@@ -170,3 +170,154 @@ html {
 }
 
 /* BUTTONS::END */
+
+/* HEADER::START */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  z-index: 10000;
+  background-color: rgba(24, 24, 24, 0.3);
+}
+
+.menu-active {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#menu-bars {
+  font-size: 25px;
+  padding-right: 20px;
+}
+
+#menu-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  z-index: 100000;
+}
+
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100vh;
+  background-color: rgba(153, 153, 161, 0.3);
+  backdrop-filter: blur(10px);
+  transition: 0.3s;
+  z-index: 1000000;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.side-menu.show {
+  left: 0;
+}
+
+#menu-close-button {
+  text-transform: none;
+  background-color: var(--taupe-gray);
+  color: var(--platinum);
+  font-size: 14px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.fa.fa-angle-left {
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.side-menu-icons-container {
+  display: none;
+  font-size: 20px;
+  margin: 0;
+  padding: 10px 0 10px 0;
+  justify-content: center;
+  text-align: center;
+  color: var(--golden-rod);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.side-menu-icons-container p {
+  font-size: 13px;
+  color: #fff;
+}
+
+.side-menu-icons-container .container {
+  display: inline-block;
+  flex-direction: column;
+  cursor: pointer;
+  width: 45%;
+}
+
+#community-button {
+  color: var(--platinum);
+  width: 90%;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.side-menu .btn i {
+  padding-right: 5px;
+}
+
+.links p {
+  color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border-bottom: 0.5px solid #444;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.links p:hover {
+  color: var(--golden-rod);
+}
+
+.genre-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 10px;
+}
+
+.genre-section h1 {
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 0;
+  text-transform: none;
+  font-weight: bold;
+  text-align: center;
+}
+
+.genre-column {
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+.genre-section p {
+  padding-top: 15px;
+  padding-right: 50px;
+  cursor: pointer;
+  display: inline-block;
+  color: #fff;
+  font-size: 10px;
+}
