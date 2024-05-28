@@ -321,3 +321,84 @@ header {
   color: #fff;
   font-size: 10px;
 }
+
+
+#action {
+  color: red;
+}
+
+#adventure {
+  color: purple;
+}
+
+#martial-arts {
+  color: green;
+}
+
+#comedy {
+  color: yellow;
+}
+
+#suspense {
+  color: navy;
+}
+
+#demons {
+  color: black;
+}
+
+#drama {
+  color: aqua;
+}
+
+#ecchi {
+  color: pink;
+}
+
+#fantasy {
+  color: brown;
+}
+
+#horror {
+  color: chocolate;
+}
+
+#mecha {
+  color: chartreuse;
+}
+
+#slice-of-life {
+  color: darkgray;
+}
+
+#isekai {
+  color: darkgoldenrod;
+}
+
+#idol {
+  color: deeppink;
+}
+
+#psychological {
+  color: darkolivegreen;
+}
+
+#romance {
+  color: darkorange;
+}
+
+#sci-fi {
+  color: darkmagenta;
+}
+
+#supernatural {
+  color: darkkhaki;
+}
+
+#mystery {
+  color: darkseagreen;
+}
+
+#magic {
+  color: deepskyblue;
+}
