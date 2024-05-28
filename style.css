@@ -555,3 +555,108 @@ header .icons a:hover{
 }
 
 /* HEADER::END*/
+
+/* LOGIN::START */
+#login-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10000;
+}
+
+#login-overlay.active {
+  display: block;
+}
+
+.login-window {
+  z-index: 100000;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(3px);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 400px;
+  height: 400px;
+}
+
+.login-content {
+  text-align: left;
+  color: #fff;
+}
+
+#lb-email,
+#lb-password {
+  text-transform: uppercase;
+}
+
+#email,
+#password {
+  margin-top: 10px;
+}
+
+.login-content h2 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0;
+  height: 70px;
+}
+
+.login-content input {
+  width: 300px;
+  padding: 5px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.login-content #remember-checkbox {
+  width: 9%;
+  padding: 0;
+}
+
+.login-content #forgot-password {
+  position: relative;
+  text-align: right;
+  left: 35%;
+  cursor: pointer;
+}
+
+.login-content #forgot-password:hover {
+  color: var(--golden-rod);
+}
+
+.login-content #login-submit-button {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#login-close-button {
+  position: absolute;
+  top: -1%;
+  left: 96%;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#login-close-button:hover {
+  color: var(--golden-rod);
+}
+
+#register-button {
+  cursor: pointer;
+}
+
+#register-button:hover {
+  color: var(--golden-rod);
+}
+
+/* LOGIN::END */
