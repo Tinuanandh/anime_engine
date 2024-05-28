@@ -402,3 +402,78 @@ header {
 #magic {
   color: deepskyblue;
 }
+
+#search-icon {
+  display: none;
+  position: absolute;
+  right: 90px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+header .logo {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+header .logo i {
+  color: var(--golden-rod);
+  font-size: 35px;
+}
+
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  max-width: 450px;
+}
+
+header input {
+  flex: 1;
+  margin-left: 25px;
+  margin-right: 10px;
+  padding: 10px 10px;
+  padding-right: 80px;
+  text-transform: none;
+  width: 350px;
+  border: 1px solid #ccc;
+}
+
+.search-addon {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  right: 15px;
+}
+
+.filter-btn {
+  background-color: var(--taupe-gray);
+  color: var(--platinum);
+  padding: 5px 5px;
+  border-radius: 10%;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.search-container .fa.fa-search {
+  color: var(--black);
+  cursor: pointer;
+  padding-right: 10px;
+  font-size: 15px;
+}
+
+.social-media-text p {
+  color: var(--platinum);
+  font-size: 12px;
+  text-transform: none;
+  padding: 15px;
+}
+
+ header .navbar a{
+  font-size: 1.7rem;
+  border-radius: .5rem;
+  padding: 5px 15px;
+  color: #fff;
+}
